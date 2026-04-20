@@ -10,7 +10,7 @@ import WebsiteEditor from '../pages/Editor.jsx'
 import LiveSite from '../pages/LiveSite.jsx'
 import Pricing from '../pages/Pricing.jsx'
 // export const serverUrl="https://genwebai-trzt.onrender.com"
-export const serverUrl="http://localhost:8000"
+export const serverUrl="https://genwebai-a3rc.onrender.com"
 const App = () => {
   UseGetCurrentUser()
   const {userData}= useSelector(state=>state.user)
